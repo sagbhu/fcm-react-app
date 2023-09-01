@@ -1,0 +1,63 @@
+{
+  "name": "demo",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@okta/okta-auth-js": "^7.3.0",
+    "@okta/okta-react": "^6.7.0",
+    "@okta/okta-signin-widget": "^7.6.1",
+    "@syncfusion/ej2-data": "^21.2.4",
+    "@syncfusion/ej2-react-dropdowns": "^21.2.4",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.4.0",
+    "bootbox-react": "^1.1.1",
+    "bootstrap": "^5.2.3",
+    "env-cmd": "^10.1.0",
+    "formik": "^2.2.9",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.7.2",
+    "react-bootstrap-table-next": "^4.0.3",
+    "react-bootstrap-table2-paginator": "^2.1.2",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.8.0",
+    "react-layout-library": "^1.5.7",
+    "react-router-dom": "^6.11.2",
+    "react-scripts": "^5.0.1",
+    "react-select": "^5.7.3",
+    "react-spinners": "^0.13.8",
+    "react-toastify": "^9.1.2",
+    "semantic-ui-css": "^2.5.0",
+    "semantic-ui-react": "^2.1.4",
+    "web-vitals": "^2.1.4",
+    "yup": "^1.1.1"
+  },
+  "scripts": {
+    "start": "env-cmd -f .env.local react-scripts --openssl-legacy-provider start",
+    "start:local": "env-cmd -f .env.local react-scripts --openssl-legacy-provider start",
+    "build": "env-cmd -f .env.local react-scripts --openssl-legacy-provider build",
+    "build:local": "env-cmd -f .env.local react-scripts --openssl-legacy-provider build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "proxy": "http://192.168.1.106:7777/"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
